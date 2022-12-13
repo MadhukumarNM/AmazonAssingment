@@ -4,15 +4,12 @@ Usage (WIP)
 -------
 mvn clean test 
 -------
-
 ```
-
 Some arguments are optional as `plugin` and `tags`:
 
 ```
 mvn clean test -Dcucumber.options="--tags @tagName"
 mvn clean test -Dcucumber.options="--plugin rerun:target/rerun.txt"
-
 ```
 To run on specific environment
 mvn clean test -Ptest
@@ -46,14 +43,19 @@ https://www.baeldung.com/cucumber-spring-integration
 |    |    + -- pages
 |    |    |    | -- ...
 |    |    + -- runner
+|    |    |    | -- ...
 |    |    + -- steps/
-|    |    + -- utils/       
+|    |    |    | -- ...
+|    |    + -- utils/  
+|    |    |    | -- ...
 |    |    + -- WebDriverFactory/       
 |    |    |    | -- ...
 |    |    + -- utils/
 |    |    |    | -- ...
 |    | -- test/resource
+|    |    |    | -- ...
 |    |    + -- config.properties
+|    |    |    | -- ...
 |    |    + -- *.feature
 ```
 - `.../pages` package contains all classes which has page objects.<br />
