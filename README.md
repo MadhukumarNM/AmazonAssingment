@@ -17,4 +17,4 @@ Main Feauture
 6. utils - contains the text file reader class to read to text file
 7. resources - contains the features file and configuration files
 
-This can be executed using mvc clean test command
+This can be executed using "mvc clean test" command
