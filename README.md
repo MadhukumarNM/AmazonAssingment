@@ -1,12 +1,9 @@
 # AmazonAssingment - UI Automation with Selenium - Java Cucumber BDD framework
 
 Usage (WIP)
--------
 mvn clean test 
--------
 ```
 Some arguments are optional as `plugin` and `tags`:
-
 ```
 mvn clean test -Dcucumber.options="--tags @tagName"
 mvn clean test -Dcucumber.options="--plugin rerun:target/rerun.txt"
